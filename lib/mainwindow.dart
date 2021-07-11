@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
+List<InfoWidget> listdata = [
+  InfoWidget('Jaloliddin', 'Abdurahmonov', 'images/jaloliddin.jpg'),
+  InfoWidget('Azimjon', 'Yusufov', 'images/Azim.jpg'),
+  InfoWidget('Maqsud', 'Baxriddinov', 'images/Maqsud.jpg'),
+  InfoWidget('Javohir', 'Akramjonov', 'images/Javohir.jpg'),
+  InfoWidget('Diyorjon', 'Nasriddinov', 'images/Diyor.jpg'),
+];
+
 class CP_Club extends StatelessWidget {
-  List<InfoWidget> listdata = [
-    InfoWidget('Jaloliddin', 'Abdurahmonov', 'images/jaloliddin.jpg'),
-    InfoWidget('Azimjon', 'Yusufov', 'images/Azim.jpg'),
-    InfoWidget('Maqsud', 'Baxriddinov', 'images/Maqsud.jpg'),
-    InfoWidget('Javohir', 'Akramjonov', 'images/Javohir.jpg'),
-    InfoWidget('Diyorjon', 'Nasriddinov', 'images/Diyor.jpg'),
-  ];
   CP_Club({Key, key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
