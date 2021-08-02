@@ -1,9 +1,7 @@
+import 'package:cp_club/slider.dart';
 import 'package:cp_club/app.dart';
-import 'package:cp_club/mainwindow.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import 'mainwindow2.dart';
 
 void main() => runApp(
       MaterialApp(
@@ -17,6 +15,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CP_Club();
+    return SliderPage();
   }
 }

@@ -16,3 +16,5 @@
         <item name="android:windowBackground">?android:colorBackground</item>
     </style>
 </resources>
+-<style name="LaunchTheme" parent="Theme.AppCompat">
++<style name="LaunchTheme" parent="Theme.MaterialComponents.NoActionBar">
